@@ -1,183 +1,70 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
-  <Document>
-    <name>Adsız harita</name>
-    <description/>
-    <Style id="poly-000000-2000-77-nodesc-normal">
-      <LineStyle>
-        <color>ff000000</color>
-        <width>2</width>
-      </LineStyle>
-      <PolyStyle>
-        <color>4d000000</color>
-        <fill>1</fill>
-        <outline>1</outline>
-      </PolyStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="poly-000000-2000-77-nodesc-highlight">
-      <LineStyle>
-        <color>ff000000</color>
-        <width>3</width>
-      </LineStyle>
-      <PolyStyle>
-        <color>4d000000</color>
-        <fill>1</fill>
-        <outline>1</outline>
-      </PolyStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="poly-000000-2000-77-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#poly-000000-2000-77-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#poly-000000-2000-77-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="poly-0F9D58-2000-77-nodesc-normal">
-      <LineStyle>
-        <color>ff589d0f</color>
-        <width>2</width>
-      </LineStyle>
-      <PolyStyle>
-        <color>4d589d0f</color>
-        <fill>1</fill>
-        <outline>1</outline>
-      </PolyStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="poly-0F9D58-2000-77-nodesc-highlight">
-      <LineStyle>
-        <color>ff589d0f</color>
-        <width>3</width>
-      </LineStyle>
-      <PolyStyle>
-        <color>4d589d0f</color>
-        <fill>1</fill>
-        <outline>1</outline>
-      </PolyStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="poly-0F9D58-2000-77-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#poly-0F9D58-2000-77-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#poly-0F9D58-2000-77-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="poly-757575-2000-77-nodesc-normal">
-      <LineStyle>
-        <color>ff757575</color>
-        <width>2</width>
-      </LineStyle>
-      <PolyStyle>
-        <color>4d757575</color>
-        <fill>1</fill>
-        <outline>1</outline>
-      </PolyStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="poly-757575-2000-77-nodesc-highlight">
-      <LineStyle>
-        <color>ff757575</color>
-        <width>3</width>
-      </LineStyle>
-      <PolyStyle>
-        <color>4d757575</color>
-        <fill>1</fill>
-        <outline>1</outline>
-      </PolyStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="poly-757575-2000-77-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#poly-757575-2000-77-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#poly-757575-2000-77-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Folder>
-      <name>Adsız katman</name>
-      <Placemark>
-        <name>Yasak Bölge 1</name>
-        <styleUrl>#poly-757575-2000-77-nodesc</styleUrl>
-        <Polygon>
-          <outerBoundaryIs>
-            <LinearRing>
-              <tessellate>1</tessellate>
-              <coordinates>
-                28.881794,41.068893,0
-                28.874241,41.045335,0
-                28.89381,41.040415,0
-                28.915096,41.068893,0
-                28.881794,41.068893,0
-              </coordinates>
-            </LinearRing>
-          </outerBoundaryIs>
-        </Polygon>
-      </Placemark>
-      <Placemark>
-        <name>Çokgen 3</name>
-        <styleUrl>#poly-000000-2000-77-nodesc</styleUrl>
-        <Polygon>
-          <outerBoundaryIs>
-            <LinearRing>
-              <tessellate>1</tessellate>
-              <coordinates>
-                28.940611,41.057102,0
-                28.938465,41.056455,0
-                28.936233,41.054902,0
-                28.93486,41.053284,0
-                28.934517,41.052054,0
-                28.936662,41.054384,0
-                28.938293,41.055873,0
-                28.940868,41.056585,0
-                28.940611,41.057102,0
-              </coordinates>
-            </LinearRing>
-          </outerBoundaryIs>
-        </Polygon>
-      </Placemark>
-      <Placemark>
-        <name>Çokgen 4</name>
-        <styleUrl>#poly-0F9D58-2000-77-nodesc</styleUrl>
-        <Polygon>
-          <outerBoundaryIs>
-            <LinearRing>
-              <tessellate>1</tessellate>
-              <coordinates>
-                32.708218,39.658555,0
-                31.730435,38.670484,0
-                33.334439,38.205797,0
-                34.965909,39.96237,0
-                33.158658,40.327686,0
-                32.708218,39.658555,0
-              </coordinates>
-            </LinearRing>
-          </outerBoundaryIs>
-        </Polygon>
-      </Placemark>
-    </Folder>
-  </Document>
-</kml>
+<Document id="root_doc">
+<Schema name="adsz_katman" id="adsz_katman">
+	<SimpleField name="id" type="string"></SimpleField>
+	<SimpleField name="timestamp" type="string"></SimpleField>
+	<SimpleField name="begin" type="string"></SimpleField>
+	<SimpleField name="end" type="string"></SimpleField>
+	<SimpleField name="altitudeMode" type="string"></SimpleField>
+	<SimpleField name="tessellate" type="int"></SimpleField>
+	<SimpleField name="extrude" type="int"></SimpleField>
+	<SimpleField name="visibility" type="int"></SimpleField>
+	<SimpleField name="drawOrder" type="int"></SimpleField>
+	<SimpleField name="icon" type="string"></SimpleField>
+</Schema>
+<Folder><name>adsz_katman</name>
+  <Placemark id="adsz_katman.1">
+	<name>Yasak Bölge 1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#adsz_katman">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>28.881794,41.068893,0 28.874241,41.045335,0 28.89381,41.040415,0 28.915096,41.068893,0 28.881794,41.068893,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="adsz_katman.2">
+	<name>Çokgen 3</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#adsz_katman">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>28.940611,41.057102,0 28.938465,41.056455,0 28.936233,41.054902,0 28.93486,41.053284,0 28.934517,41.052054,0 28.936662,41.054384,0 28.938293,41.055873,0 28.940868,41.056585,0 28.940611,41.057102,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="adsz_katman.3">
+	<name>Çokgen 4</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#adsz_katman">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>32.708218,39.658555,0 31.730435,38.670484,0 33.334439,38.205797,0 34.965909,39.96237,0 33.158658,40.327686,0 32.708218,39.658555,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="adsz_katman.4">
+	<name>Uygun isntabul</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#adsz_katman">
+		<SimpleData name="id">Ads__z_katman.4</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>28.7948361264447,41.2073766564161,0 28.7044070468557,41.2436965326445,0 28.6162016331582,41.2014468807053,0 28.5687634274722,41.155491118947,0 28.622131408869,41.131772016104,0 28.6243550747605,41.1117590230802,0 28.6050833037005,41.0947109179118,0 28.6013771938813,41.074697924888,0 28.6295436285074,41.0532024879365,0 28.679205500085,41.0057642822505,0 28.7199727080964,41.0502376000811,0 28.7488803646863,41.0628383734665,0 28.7666696918186,41.0324482729489,0 28.759998694144,41.1339956819955,0 28.7259024838072,41.1851399975008,0 28.7948361264447,41.2073766564161,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="adsz_katman.5">
+	<name>izinli istanbul</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#adsz_katman">
+		<SimpleData name="id">Ads__z_katman.5</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>29.0616579390825,41.0054796194126,0 29.1745821682455,40.8946465796785,0 29.310509481127,40.8695523065311,0 29.3157374546993,40.9573822625468,0 29.1264848113798,41.0295282978454,0 29.1264848113798,41.0295282978454,0 29.0616579390825,41.0054796194126,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>
