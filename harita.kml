@@ -18,6 +18,7 @@
 	<name>Yasak Bölge 1</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#adsz_katman">
+		<SimpleData name="id">adsz_katman.1</SimpleData>
 		<SimpleData name="tessellate">-1</SimpleData>
 		<SimpleData name="extrude">0</SimpleData>
 		<SimpleData name="visibility">-1</SimpleData>
@@ -28,6 +29,7 @@
 	<name>Çokgen 3</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#adsz_katman">
+		<SimpleData name="id">adsz_katman.2</SimpleData>
 		<SimpleData name="tessellate">-1</SimpleData>
 		<SimpleData name="extrude">0</SimpleData>
 		<SimpleData name="visibility">-1</SimpleData>
@@ -38,6 +40,7 @@
 	<name>Çokgen 4</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#adsz_katman">
+		<SimpleData name="id">adsz_katman.3</SimpleData>
 		<SimpleData name="tessellate">-1</SimpleData>
 		<SimpleData name="extrude">0</SimpleData>
 		<SimpleData name="visibility">-1</SimpleData>
