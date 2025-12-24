@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>tcmEarth.kml</name>
+	<Style id="PolyStyle012">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<PolyStyle>
+			<color>8073b273</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="PolyStyle01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#PolyStyle012</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#PolyStyle013</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="PolyStyle001">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#PolyStyle003</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#PolyStyle000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="PolyStyle011">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<PolyStyle>
+			<color>8073b273</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="PolyStyle002">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>0.552755</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>0d0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="PolyStyle016">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<PolyStyle>
+			<color>8073b273</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<gx:CascadingStyle kml:id="__managed_style_1298AFA7F73C84783946">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2f2fd3</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>405053ef</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<Style id="PolyStyle017">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<PolyStyle>
+			<color>8073b273</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="PolyStyle010">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#PolyStyle014</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#PolyStyle017</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="PolyStyle015">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#PolyStyle016</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#PolyStyle011</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="PolyStyle014">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<PolyStyle>
+			<color>8073b273</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="PolyStyle013">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<PolyStyle>
+			<color>8073b273</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="__managed_style_00310EB3AF3C84783946">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1298AFA7F73C84783946</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_23EF91657D3C84783946</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="PolyStyle000">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>0.552755</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>800000ff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="PolyStyle00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#PolyStyle004</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#PolyStyle002</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="PolyStyle003">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>0.552755</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>800000ff</color>
+		</PolyStyle>
+	</Style>
+	<gx:CascadingStyle kml:id="__managed_style_23EF91657D3C84783946">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2f2fd3</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>405053ef</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<Style id="PolyStyle004">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>0.552755</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>0d0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Folder id="FeatureLayer0">
+		<name>adsz_katman</name>
+		<open>1</open>
+		<Snippet maxLines="0"></Snippet>
+		<Placemark id="ID_00000">
+			<name>Yasak Bölge 1</name>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+</head>
+
+<body>
+
+<table>
+
+<tr><td style="white-space: nowrap;"></td></tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle001</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								28.88179400000007,41.06889300000006,0 28.87424100000004,41.04533500000008,0 28.89381000000003,41.04041500000005,0 28.91509600000006,41.06889300000006,0 28.88179400000007,41.06889300000006,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00001">
+			<name>Uygun isntabul</name>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+</head>
+
+<body>
+
+<table>
+
+<tr><td style="white-space: nowrap;"></td></tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle010</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								28.79483612600006,41.20737665600007,0 28.70440704700008,41.24369653300005,0 28.61620163300006,41.20144688100004,0 28.56876342700007,41.15549111900003,0 28.62213140900008,41.13177201600007,0 28.62435507500004,41.11175902300005,0 28.60508330400006,41.09471091800003,0 28.60137719400007,41.07469792500007,0 28.62954362900007,41.05320248800007,0 28.67920550000002,41.00576428200003,0 28.71997270800006,41.05023760000006,0 28.74888036500005,41.06283837300003,0 28.76666969200005,41.03244827300006,0 28.75999869400005,41.13399568200003,0 28.72590248400007,41.18513999800007,0 28.79483612600006,41.20737665600007,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00002">
+			<name>izinli istanbul</name>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+</head>
+
+<body>
+
+<table>
+
+<tr><td style="white-space: nowrap;"></td></tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle015</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								29.06165793900004,41.00547961900003,0 29.17458216800003,40.89464658000003,0 29.31050948100005,40.86955230700005,0 29.31573745500003,40.95738226300006,0 29.12648481100007,41.02952829800006,0 29.12648481100007,41.02952829800006,0 29.06165793900004,41.00547961900003,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00003">
+			<name>Yasak Bölge 2</name>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+</head>
+
+<body>
+
+<table>
+
+<tr><td style="white-space: nowrap;"></td></tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle00</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								28.94061100000005,41.05710200000004,0 28.93846500000007,41.05645500000003,0 28.93623300000007,41.05490200000003,0 28.93486000000007,41.05328400000008,0 28.93451700000003,41.05205400000006,0 28.93666200000007,41.05438400000003,0 28.93829300000004,41.05587300000008,0 28.94086800000002,41.05658500000004,0 28.94061100000005,41.05710200000004,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="0C14969F8E3C8477B5A3">
+			<name>Yasaklı</name>
+			<LookAt>
+				<longitude>31.511040646885</longitude>
+				<latitude>39.68909183409089</latitude>
+				<altitude>839.253419142351</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<gx:fovy>30.00002723238131</gx:fovy>
+				<range>615555.3623342514</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_00310EB3AF3C84783946</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							30.2109336719371,39.70889260277591,0 29.64120016517989,39.48946577769706,0 30.42883278562526,39.36670596974458,0 31.40103166069063,40.15243937376543,0 30.28026435783197,40.26401670694447,0 29.74310616255286,39.8276425396168,0 30.2109336719371,39.70889260277591,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="ID_00004">
+			<name>İzinli</name>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+</head>
+
+<body>
+
+<table>
+
+<tr><td style="white-space: nowrap;"></td></tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle01</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								32.70821800000005,39.65855500000004,0 31.73043500000006,38.67048400000004,0 33.33443900000003,38.20579700000008,0 34.96590900000007,39.96237000000008,0 33.15865800000006,40.32768600000003,0 32.70821800000005,39.65855500000004,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	</Folder>
+</Document>
+</kml>
